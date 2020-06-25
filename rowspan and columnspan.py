@@ -28,4 +28,7 @@ button7.grid(row=2, column=2)
 button8 = ttk.Button(root, text="Row 3, Col 1")
 button8.grid(row=3, column=1, columnspan=2, sticky="WE")
 
+myImage = Image.open("ICYTWAT.PNG");
+myImage.show("ICYTWAT.PNG");
+
 root.mainloop()
